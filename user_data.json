@@ -1,0 +1,18 @@
+{
+    "abc": {
+        "password": "6ca13d52ca70c883e0f0bb101e425a89e8624de51db2d2392593af6a84118090",
+        "profile": {
+            "name": "",
+            "email": "",
+            "preferences": {}
+        }
+    },
+    "doctor": {
+        "password": "72f4be89d6ebab1496e21e38bcd7c8ca0a68928af3081ad7dff87e772eb350c2",
+        "profile": {
+            "name": "",
+            "email": "",
+            "preferences": {}
+        }
+    }
+}

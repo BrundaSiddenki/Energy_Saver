@@ -1,0 +1,1 @@
+# SmartEnergySense - AI-Powered Household Energy Optimization 
