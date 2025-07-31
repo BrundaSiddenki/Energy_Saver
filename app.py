@@ -535,12 +535,12 @@ def login_page():
         if success:
             st.success(msg)
             st.session_state['page'] = 'main_app'
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error(msg)
     if st.button("Go to Register", key="go_register_button"):
         st.session_state['page'] = 'register'
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def register_page():
@@ -605,12 +605,12 @@ def register_page():
             if success:
                 st.success(msg)
                 st.session_state['page'] = 'login'
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error(msg)
     if st.button("Go to Login", key="go_login_button"):
         st.session_state['page'] = 'login'
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def register_page():
@@ -626,12 +626,12 @@ def register_page():
             if success:
                 st.success(msg)
                 st.session_state['page'] = 'login'
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error(msg)
     if st.button("Go to Login"):
         st.session_state['page'] = 'login'
-        st.experimental_rerun()
+        st.rerun()
 
 def main_app():
     # Header
@@ -642,7 +642,7 @@ def main_app():
     if st.sidebar.button("Logout"):
         logout_user()
         st.session_state['page'] = 'login'
-        st.experimental_rerun()
+        st.rerun()
     
     # Sidebar
     with st.sidebar:
